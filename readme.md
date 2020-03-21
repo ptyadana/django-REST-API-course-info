@@ -7,12 +7,16 @@ A simple REST API for getting the lists of books information, creating, updating
 
 ### Endpoints
 ```/courses``` GET: get all books
+
 ```/courses``` POST: create new book
+
 ```/courses/id``` PUT/PATCH: update the book (/courses/1)
+
 ```/courses/id``` DELETE: delete the book (/courses/1)
 
 #### Sample JSON
-```HTTP 200 OK
+```javascript
+HTTP 200 OK
 Allow: GET, POST, HEAD, OPTIONS
 Content-Type: application/json
 Vary: Accept
